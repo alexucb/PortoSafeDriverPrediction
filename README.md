@@ -2,6 +2,7 @@
  Kaggle-Porto Seguro’s Safe Driver Prediction：Predict if a driver will file an insurance claim next year.
 
 =========================================================================
+
 Nothing ruins the thrill of buying a brand new car more quickly than seeing your new insurance bill. The sting’s even more painful when you know you’re a good driver. It doesn’t seem fair that you have to pay so much if you’ve been cautious on the road for years.
 
 Porto Seguro, one of Brazil’s largest auto and homeowner insurance companies, completely agrees. Inaccuracies in car insurance company’s claim predictions raise the cost of insurance for good drivers and reduce the price for bad ones.
@@ -17,6 +18,7 @@ In this competition, you will predict the probability that an auto insurance pol
 In the train and test data, features that belong to similar groupings are tagged as such in the feature names (e.g., ind, reg, car, calc). In addition, feature names include the postfix bin to indicate binary features and cat to indicate categorical features. Features without these designations are either continuous or ordinal. Values of -1 indicate that the feature was missing from the observation. The target columns signifies whether or not a claim was filed for that policy holder.
 
 =========================================================================
+
 File descriptions
 
 train.csv contains the training data, where each row corresponds to a policy holder, and the target columns signifies that a claim was filed.
